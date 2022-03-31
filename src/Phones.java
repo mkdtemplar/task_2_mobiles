@@ -49,7 +49,7 @@ public class Phones
             System.out.println("Insert successful");
         }
         else {
-            System.out.println("Insert successful");
+            System.out.println("Insert not successful");
         }
 
         String sql = "SELECT * FROM PHONE WHERE PRICE > 170";
